@@ -24,6 +24,7 @@ plink.exe 10.0.0.5 -l root -pw 1234 -m debug-off.txt
 Where debug-on.txt contains actual commands, e.g.:
 
 ~~~~
+. /etc/profile #This is needed somewhy to properly init the environment for non-interactive plink sesssion
 date
 uptime
 python -c "print('Hi')"
