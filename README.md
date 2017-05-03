@@ -21,12 +21,12 @@ Debug OFF
 plink.exe 10.0.0.5 -l root -pw 1234 -m debug-off.txt
 ~~~~
 
-Where debug-on.txt contains actual commands:
+Where debug-on.txt contains actual commands, e.g.:
 
 ~~~~
 date
 uptime
-python -c "print('Hi');
+python -c "print('Hi')"
 ~~~~
 
 Notice the usage on plink instead of putty.
