@@ -1,0 +1,5 @@
+Sample - notepad
+notepad.exe
+
+Sample with params
+notepad.exe /A c:\Windows\System32\drivers\etc\hosts
