@@ -4,9 +4,9 @@ Probably too simple, since it took less time to write the tool itself than to wr
 
 # Usage
 1. Run the exe.
-1. Create an arbitrary amount of arbitrary-named .txt files next to the exe (see default Test1.txt as an example). Odd lines are captions, even lines are commands. Empty lines are ignored.
+1. Create an arbitrary amount of arbitrary-named .txt files next to the exe (see bin/Debug/Test1.txt as an example). Odd lines are captions, even lines are commands. Empty lines are ignored.
 1. Point any device to "http://*your-host-name*:81/RD/*your-text-file-name-without-extension*/".
-E.g., http://localhost:81/RD/Test1/
+E.g., http://localhost:81/RD/Test1/  
 Pushing a button will run the corresponding command.
 1. Make a QR out of that link using any online QR generator and print it :)
 
