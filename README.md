@@ -24,7 +24,9 @@ plink.exe 10.0.0.5 -l root -pw 1234 -m debug-off.txt
 Where debug-on.txt contains actual commands:
 
 ~~~~
-rm -rf /
+date
+uptime
+python -c "print('Hi');
 ~~~~
 
 Notice the usage on plink instead of putty.
